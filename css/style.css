@@ -172,7 +172,7 @@ h2 {
 #rightArrowCoffee {
     position: absolute;
     top: 1800px;
-    right: 200px;
+    margin-left: 1200px;
     z-index: 2;
 }
 
@@ -180,7 +180,7 @@ h2 {
     position: absolute;
     transform: rotate(180deg);
     top: 1800px;
-    left: 200px;
+    margin-left: 200px;
     z-index: 2;
 }
 
@@ -397,7 +397,7 @@ button#tab1 {
 #rightArrowCombo {
     position: absolute;
     top: 3500px;
-    right: 200px;
+    margin-left: 1200px;
     z-index: 3;
 }
 
@@ -405,7 +405,7 @@ button#tab1 {
     position: absolute;
     transform: rotate(180deg);
     top: 3500px;
-    left: 200px;
+    margin-left: 200px;
     z-index: 3;
 }
 
