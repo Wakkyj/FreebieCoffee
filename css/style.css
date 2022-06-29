@@ -1,0 +1,387 @@
+body {
+    width: 1400px;
+    margin: 0 auto;
+    /* background-color: orange; */
+    /* overflow: hidden; */
+}
+
+
+main {
+    overflow: hidden;
+}
+
+ul > li {
+    display: block;
+}
+nav {
+    margin-top: 230px;
+    margin-bottom: 260px;
+    margin-left: 57px;
+}
+ul > li > a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EDF0F5;
+    text-decoration: none;
+    padding-left: 0;
+    padding-top: calc(50% - 225px/2 + 10.5px);
+    
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+}
+div.meny {
+    position: relative;
+
+    width: 328px;
+    background-color: #415167;
+    
+}
+
+.White {
+    background-color: #FFFFFF;
+    width: 436px;
+}
+
+h1 {
+    position: relative;
+    top: 504px;
+    left: 145px;
+    padding-left: 15px;
+    /* padding-top: calc(50% - 200px/2); */
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 70px;
+/* or 130% */
+    color: #415167;
+}
+
+.LineGold {
+    position: relative;
+    left: -5px;
+    color: #F9FBFF;
+    background-color: #C7A17A;
+    padding: 5px;
+}
+
+.TopBar {
+    position: fixed; 
+    display: flex;
+    justify-content: space-between; 
+    z-index: 2;
+    margin: 72px 234px auto 130px;
+    width: 1040px;
+
+}
+
+#Features {
+    display: block;
+    margin: 90px auto;
+    width: 1000px;
+    height: 380px;
+    
+}
+
+.Catalog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Catalog > li {
+    display: block;
+    text-align: center;
+    padding: 0 27.5px;
+}
+
+.Catalog > li > p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#Coffee {
+    /* background-color: #EDF0F5; */
+    height: 900px;
+}
+
+.Title {
+    text-align: center;
+    
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 0;
+    color: #415167;
+}
+
+.RigthColor {
+    position: absolute;
+    height: inherit;
+    background-color: #415167;
+    width: 385px;
+    margin: 0;
+    z-index: -1;
+}
+.WhiteSmoke {
+    position: absolute;
+    background-color: rgba(255,255,255, 0.5);
+    width: 200px;
+    height: inherit;
+    margin-left: 1200px;
+}
+
+
+.titleofCoffe {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.listProduct {
+    position: relative;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin-left: 130px;
+}
+
+.listProduct > div {
+    display: flex;
+    height: 260px;
+    width: 560px;
+}
+
+.listProduct > div > img {
+    background-color: #EDF0F5;
+}
+
+.content {
+    padding: 45px;
+    background-color: #FFFFFF;
+    height: 100%;
+    box-sizing: border-box;
+}
+.price {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;    
+    margin: 5;
+    color: #C7A17A;
+}
+
+.name {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    color: #232C38;
+}
+
+.buttons {
+    display: flex;
+}
+
+.Buy {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 6px 15px;
+    color: #F9FBFF;
+    border-radius: 19px;
+    border: none;
+    background: #C7A17A;
+}
+
+.Detail {
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 16px;
+}
+
+#GiftSet {
+    display: block;
+    /* position: relative; */
+    height: 800px;
+    width: inherit;
+    /* background-color: #EDF0F5; */
+}
+
+.greyBlock {
+    position: absolute;
+    display: block;
+    width: 1000px;
+    height: 800px;
+    background-color: #EDF0F5;
+    z-index: -1;
+}
+/* rgb(255,255,255); */
+.WhiteBlok {
+    position: absolute;
+    background-color: rgb(255,255,255);
+    width: 400px;
+    height: inherit;
+    margin-left: 1000px;
+    z-index: -1;
+}
+
+.titleofGiftSet {
+    text-align: center;
+    padding-top: 86px;
+    padding-bottom: 66px;
+}
+
+.discriptionGift1 {
+    background-color: #FFFFFF;
+    margin:0 0 126px 360px;
+    box-sizing: border-box;
+    padding: 64px 68px 64px 300px;
+    padding-left: 256px;
+    z-index: 3;
+    height: inherit;
+    box-shadow: 0 4px 4px rgba(255,255,255, 0.25);
+}
+
+.GIFTSET  {
+    display: flex;
+    height: 465px;
+    width: 1140px;
+}
+
+
+.GIFTphoto {
+    position: absolute;
+    margin-left: -555px;
+}
+
+.why {
+    display: flex;
+    margin-right: 12px;
+}
+.why > img {
+    margin: 12px;
+}
+
+.TAB {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    margin-right: auto;
+    height: inherit;
+    width: 400px;
+}
+
+.TAB > button {
+    background-color: #EDF0F5;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 34px;  
+
+
+    color: #415167;
+
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+
+#tab1 {
+    opacity: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Combo {
+    height: 906px;
+}
+
+.titleofCombo {
+    text-align: center;
+    padding-top: 86px;
+    padding-bottom: 66px;
+}
+
+.listCombo {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 128px;
+    height: 560px;
+}
+
+.listCombo > div {
+    padding: 0 15px;
+    /* height: inherit; */
+}
+
+.listCombo > div > img {
+    background-color: #EDF0F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.listCombo > div> .content {
+    padding: 42px;
+    background-color: #FFFFFF;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+.leftBlue {
+    position: absolute;
+    height: 906px;
+    background-color: #415167;
+    width: 325px;
+    margin: 0;
+    z-index: -1;
+    margin-top: -86px;
+    margin-left: 1075px;
+}
+.exprice {
+    font-family: 'Nunito';
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+
+    color: #415167;
+}
+
+footer > a {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    text-decoration: none;
+
+    color: #415167;
+}
+
+footer {
+    background: #EDF0F5;
+}
